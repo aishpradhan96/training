@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Sub Heading</title>
+	<style>
+	th{
+	color:red;
+	}
+	  table,th,td{
+	  border-color: blue;
+	  border-collapse:collapse;
+	  }
+	  th,td,tr{
+	  padding:15px;
+	  text-align: centre;
+	  }
+	  table#t1{
+	  width:100%;
+	  background-color: silver;
+	  }
+	</style>
+  </head>
+  
+  <body>
+     <table border="1" cellspacing="5" id="t1">
+	    <caption>Sample table</caption>
+		<tr>
+		   <th rowspan="2">Student Name</th>
+		   <th colspan="3">Subject Marks</th>
+		   <th rowspan="2"> TOTAL</th>
+        </tr>
+		<tr><th>Sub1</th><th>Sub2</th><th>Sub3</th></tr>
+		<tr><td>Deloitte</td><td>11</td><td>12</td><td>13</td><td>36</td></tr>
+		<tr><td>Deloitte</td><td>11</td><td>12</td><td>13</td><td>36</td></tr>
+		<tr><td>Deloitte</td><td>11</td><td>12</td><td>13</td><td>36</td></tr>
+		
+  </body>  
+</html>
